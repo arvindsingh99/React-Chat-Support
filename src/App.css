@@ -1,0 +1,97 @@
+.floatBtn{
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  height:7%;
+  width:4%;
+  border-radius:20%;
+}
+
+.chatHeader{
+  margin-top:10px;
+  text-align: center;
+  background: #9e9898ab;
+  border-radius:10px 10px 0px 0px;
+  color: white;
+}
+
+.messages{
+  min-width: 100%;
+  max-height: 400px;
+  min-height: 400px;
+  background: #f3f1f1c2;
+  border-radius: 0px;
+  overflow-y: scroll;
+
+}
+.sendMessage{
+  border-radius: 0px 0px 10px 10px;
+  padding: 0px !important;
+}
+.textInput{
+  border-radius: 20%; 
+  margin: 0px;
+  border: 1px solid gray;
+  padding: 0px;
+  
+  height: 80px;
+}
+.sendButton{
+  height:40px !important;
+  padding: 0px;
+  border-radius: 0px 0px 10px 0px;
+}
+.messageContainer{
+  display: flex;
+  background: white;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 10px;
+
+}
+.userAvatar{
+  width: 60px !important;
+  height: 50px !important;
+}
+.right{
+  float:right;
+}
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+}
+
+html, body {
+  background: linear-gradient(120deg, #17bebb, #f0a6ca);
+  overflow: hidden;
+}
+
+  
+h1 {
+      background: rgba(255, 255, 255, 0.05);
+      color: rgba(255, 255, 255, 0.9);
+      font-size: 0.9em;
+      padding: 1em;
+      margin: 0;
+      font-weight: 300;
+      text-align: center;
+    }
+  
+  
+  p {
+    float: left;
+    text-align: left;
+    margin: -0.25em 2em;
+    font-size: 0.9em;
+    font-weight: 500;
+    color: black;
+    width: 150px;
+  }
+  
+
